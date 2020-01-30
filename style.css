@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.instagram {
+  font-size: 22px;
+}
+
+nav {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  height: 77px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav .header-container {
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.2s ease-in-out;
+  width: 100%;
+}
+
+.header-homepage {
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-input {
+  padding: 0px 300px;
+}
+
+.header-infor {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 156px;
+}
+
+.infor-explore {
+  flex-grow: 1;
+}
+
+.infor-activity {
+  flex-grow: 1;
+}
+
+.infor-profile {
+  flex-grow: 1;
+}
+
+input {
+  width: 200px;
+  padding-left: 80px;
+  box-sizing: border-box;
+
+  background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_search_48px-128.png);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 62px 0;
+}
+input:focus {
+  padding-left: 16px;
+  background-position: 0;
+}
