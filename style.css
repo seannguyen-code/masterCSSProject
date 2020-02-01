@@ -3,11 +3,19 @@ a {
   color: black;
 }
 
+.fa-instagram {
+  border-right: 1px solid black;
+  margin-right: 10px;
+}
+
 .instagram {
+  display: flex;
+  align-items: center;
   font-size: 22px;
 }
 
 nav {
+  justify-content: center;
   align-items: center;
   background-color: #fff;
   border-bottom: 1px solid #dbdbdb;
@@ -36,7 +44,7 @@ nav .header-container {
 }
 
 .header-input {
-  padding: 0px 300px;
+  padding: 0px 260px;
 }
 
 .header-infor {
@@ -90,7 +98,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   background-color: rgba(var(--b3f, 250, 250, 250), 1);
-  width: 600px;
+  width: 614px;
   height: 100%;
   margin-left: auto;
   margin-top: 50px;
@@ -98,11 +106,12 @@ input:focus {
 
 .main-container .content .card {
   background-color: #fff;
-  width: 100%;
-  height: 500px;
+  width: 614px;
+  height: 950px;
   margin: 8px 5px;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
+  position: relative;
 }
 
 .main-container .content .card:first-child {
