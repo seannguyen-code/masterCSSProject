@@ -1,0 +1,26 @@
+.story-profile {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 12px;
+}
+
+.story-friends {
+  height: 230px;
+  margin-top: 4px;
+  background-color: black;
+  width: 100%;
+}
+
+.story-suggest {
+  height: 197px;
+  width: 100%;
+  background-color: blue;
+  margin: 12px 0;
+}
+
+.footer {
+  height: 125px;
+  width: 100%;
+  background-color: blueviolet;
+}

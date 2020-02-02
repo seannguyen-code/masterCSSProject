@@ -119,8 +119,10 @@ nav .header-container {
 }
 
 .main-container .story {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   margin-top: 50px;
-  background-color: yellow;
   width: 300px;
   margin-left: 25px;
 }
