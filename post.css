@@ -54,6 +54,7 @@
 
 .content-symbols .cs-bookmark {
   position: absolute;
+  bottom: 4px;
   right: 10px;
 }
 
@@ -96,4 +97,14 @@ span {
   justify-content: flex-start;
   color: #999;
   font-size: 14px;
+}
+
+#com {
+  border: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#com:focus {
+  outline: none;
 }

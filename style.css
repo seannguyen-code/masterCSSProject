@@ -69,7 +69,7 @@ nav .header-container {
   flex-grow: 1;
 }
 
-input {
+#hinput {
   width: 200px;
   padding-left: 80px;
   box-sizing: border-box;
@@ -80,7 +80,7 @@ input {
   background-position: 62px 0;
 }
 
-input:focus {
+#hinput:focus {
   padding-left: 16px;
   background-position: 0;
 }
